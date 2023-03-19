@@ -95,7 +95,7 @@ class BrandSearchReactor: Reactor {
         case .setSelectedItem(let brand):
         
             state.selectedItem = brand
-        }
+        }  
         
         return state
     }
